@@ -1,0 +1,25 @@
+a1	binary search		done
+a2	quick sort			done
+a3	booths				done
+a4	dining				done
+a5	calc file handle	done
+a6	CloudSim			done
+b1	8-queens			done
+b2	plague				done
+b3	calc load/store		done
+b4	GoogleAppEngine		--half
+b5	VMWare				done
+bb	Storage Commands	done
+
+
+inputStream = getResources.openRawResources(r.raw.fname)
+inputstreamreader = 
+bufferedReader = 
+bufre.readLine
+
+FileOutputStream = openFileOutput("",Context.MODE_PRIVATE)
+file_cont
+fileoutputstream.write(file_cont.getBytes())
+
+FileInputStream = openFileInput(fname)
+

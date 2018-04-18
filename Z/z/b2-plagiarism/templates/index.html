@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Plagiarism Checker</title>
+</head>
+<body>
+	<h2>Plagiarism checker</h2>
+	<form action="/eval" method="POST">
+		Enter string: <input type="text" name="str1"><br>
+		<input type="submit" value="Check">
+	</form>
+	{% if res %}
+	<h3>Sentence-</h3>
+	Match Count: {{ sen_count }}<br>
+	Percentage: {{ sen_perc }}<br><br>
+	<h3>Word-</h3>
+	Match Count: {{ word_count }}<br>
+	Percentage: {{ word_perc }}
+	{% endif %}
+</body>
+</html>

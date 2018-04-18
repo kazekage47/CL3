@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Employee</title>
+	</head>
+	<body>
+	<h3>Enter Employee Details</h3>
+		<form method="POST" action="/add">
+			<input type = "text" name="first_name" placeholder="First Name" />
+			<input type = "submit" name = "submit" />
+		</form>
+		
+		<h3>Employees</h3>
+		{% for i in employees %}
+			{{i.first_name}}
+		{% endfor %}
+	</body>
+</html>
